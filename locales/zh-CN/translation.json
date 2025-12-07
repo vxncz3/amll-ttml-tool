@@ -12,8 +12,8 @@
 			"warning": "This version of the website is still under development. Some features may be incomplete or unstable. Please use it with caution!"
 		},
 		"empty": {
-			"title": "No lyric line (yet)",
-			"description": "Add a new lyric line using top panel or open/import existing lyrics from the menu"
+			"title": "No lyric lines (yet)",
+			"description": "Add a new lyric line in the top ribbon or open / import an existing lyric file from the menu"
 		}
 	},
 	"spectrogram": {
