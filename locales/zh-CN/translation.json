@@ -84,9 +84,9 @@
 		"fileNamePlaceholder": "File Name"
 	},
 	"audioPanel": {
-		"volume": "Volume",
+		"volume": "Playback Volume",
 		"gain": "unused",
-		"playbackRate": "Speed",
+		"playbackRate": "Playback Speed",
 		"clickToLoadMusic": "Click the icon button to load audio file",
 		"playPause": "Play / Pause",
 		"expandSpectrogram": "unused"
