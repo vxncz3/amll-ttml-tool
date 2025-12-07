@@ -210,19 +210,6 @@ export const AudioControls: FC = memo(() => {
 											{(volume * 100).toFixed()}%
 										</Text>
 										<Text wrap="nowrap">
-											{t("audioPanel.gain", "频谱增益")}
-										</Text>
-										<Slider
-											min={0.5}
-											max={8}
-											defaultValue={[gain]}
-											step={0.5}
-											onValueChange={(v) => setGain(v[0])}
-										/>
-										<Text wrap="nowrap" color="gray" size="1">
-											{gain.toFixed(1)}
-										</Text>
-										<Text wrap="nowrap">
 											{t("audioPanel.playbackRate", "播放速度")}
 										</Text>
 										<Slider

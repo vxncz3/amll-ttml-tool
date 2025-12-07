@@ -85,11 +85,11 @@
 	},
 	"audioPanel": {
 		"volume": "Volume",
-		"gain": "Spectrum Gain",
-		"playbackRate": "Playback rate",
-		"clickToLoadMusic": "Click the icon button to load music",
-		"playPause": "Play / pause music",
-		"expandSpectrogram": "Expand / collapse spectrogram"
+		"gain": "unused",
+		"playbackRate": "Speed",
+		"clickToLoadMusic": "Click the icon button to load audio file",
+		"playPause": "Play / Pause",
+		"expandSpectrogram": "unused"
 	},
 	"splitWordDialog": {
 		"spaceCount": "Space x{count}",
