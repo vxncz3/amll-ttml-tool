@@ -277,22 +277,6 @@ export const AudioControls: FC = memo(() => {
 						>
 							{msToTimestamp(currentDuration)}
 						</Text>
-						<Tooltip
-							content={t("audioPanel.expandSpectrogram", "展开 / 收起频谱图")}
-						>
-							<IconButton
-								my="2"
-								ml="0"
-								variant="soft"
-								onClick={() => setSpectrogramVisible(!spectrogramVisible)}
-							>
-								{spectrogramVisible ? (
-									<ChevronDownFilled />
-								) : (
-									<ChevronUpFilled />
-								)}
-							</IconButton>
-						</Tooltip>
 					</Flex>
 				</Flex>
 			</Inset>
