@@ -1,0 +1,2 @@
+exclude:
+  - "nold/**"   # ignore tous les fichiers dans nold
