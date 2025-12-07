@@ -258,10 +258,10 @@
 }
 
 .lyricWord.sync.active {
-	background-color: blue;
+	background-color: var(--purple-a5);
 
 	&.selected {
-		background-color: var(--blue-a7);
+		background-color: var(--purple-a7);
 	}
 }
 
