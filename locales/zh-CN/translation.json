@@ -9,11 +9,11 @@
 			"details": "Approximate error info:"
 		},
 		"wip": {
-			"warning": "This refactored version is still under development. Please keep backups of your project to avoid accidents!"
+			"warning": "This version of the website is still under development. Some features may be incomplete or unstable. Please use it with caution!"
 		},
 		"empty": {
-			"title": "No lyric lines",
-			"description": "Add new lyric lines in the top panel or open/import existing lyrics from the menu"
+			"title": "No lyric lines (yet)",
+			"description": "Add a new lyric line using top panel or open/import existing lyrics from the menu"
 		}
 	},
 	"spectrogram": {
@@ -29,8 +29,8 @@
 			"showTranslation": "Show Translation Line",
 			"showRomanization": "Show Romanization Line",
 			"showWordRomanizationInput": "Show Per-Word Romanization",
-			"new": "New",
-			"lyricLine": "Lyric Line",
+			"new": "Add",
+			"lyricLine": "New Line",
 			"lineTiming": "Line Timing",
 			"lineProperties": "Line Properties",
 			"bgLyric": "Background Vocal",
@@ -45,7 +45,7 @@
 			"secondaryContent": "Secondary Content",
 			"translatedLyric": "Translation",
 			"romanLyric": "Romanization",
-			"layoutMode": "Layout",
+			"layoutMode": "Interface Layout",
 			"auxiliaryLineDisplay": "Auxiliary Line Display",
 			"syllableDisplayMode": "Syllable Display Mode"
 		},
