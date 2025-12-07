@@ -399,7 +399,7 @@
 			"sync": "Sync Mode",
 			"preview": "Preview Mode"
 		},
-		"appName": "Apple Music-like Lyrics TTML Tool",
+		"appName": "Apple Music-like Lyrics TTML Tool (BETA)",
 		"menu": {
 			"importLyric": {
 				"import": "Import lyrics",
