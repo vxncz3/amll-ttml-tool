@@ -97,7 +97,7 @@ export const LyricWordSegment: FC<LyricWordSegmentProps> = ({
 	const dynamicStyles = {
 		left: `${left}px`,
 		width: `${width}px`,
-		backgroundColor: isSelected ? "var(--accent-a6)" : "var(--accent-a6)",
+		backgroundColor: isSelected ? "var(--accent-a6)" : "transparent",
 	};
 
 	const hasRoman =

@@ -258,7 +258,7 @@
 }
 
 .lyricWord.sync.active {
-	background-color: transparent;
+	background-color: blue;
 
 	&.selected {
 		background-color: var(--blue-a7);
