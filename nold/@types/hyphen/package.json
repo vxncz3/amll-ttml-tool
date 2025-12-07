@@ -1,0 +1,25 @@
+{
+    "name": "@types/hyphen",
+    "version": "1.6.7",
+    "description": "TypeScript definitions for hyphen",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/hyphen",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Krisztián Balla",
+            "githubUsername": "krisztianb",
+            "url": "https://github.com/krisztianb"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/hyphen"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "7836f9ba2616b2f51a566565d5914792c91b477fe799e37e9ff4b9a66cd2db75",
+    "typeScriptVersion": "4.5"
+}
