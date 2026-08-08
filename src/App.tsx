@@ -311,7 +311,7 @@ function App() {
 			appearance={effectiveTheme}
 			panelBackground="solid"
 			hasBackground={hasBackground}
-			accentColor={effectiveTheme === "dark" ? "jade" : "green"}
+			accentColor={effectiveTheme === "dark" ? "purple" : "purple"}
 			className={styles.radixTheme}
 		>
 			<ErrorBoundary

@@ -343,10 +343,10 @@ export const LyricLineView: FC<{
 		const animation = startTimeRef.current?.animate(
 			[
 				{
-					backgroundColor: "var(--green-a8)",
+					backgroundColor: "var(--purple-a8)",
 				},
 				{
-					backgroundColor: "var(--green-a4)",
+					backgroundColor: "var(--purple-a4)",
 				},
 			],
 			{

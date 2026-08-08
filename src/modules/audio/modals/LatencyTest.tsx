@@ -120,11 +120,11 @@ export const LatencyTestDialog = memo(() => {
 					);
 				}
 
-				ctx.fillStyle = "green";
+				ctx.fillStyle = "purple";
 				ctx.fillRect(mid, 0, 2 * window.devicePixelRatio, canvas.height);
 
 				const nextDiff = (curBeatTime.current - currentTime) / dur;
-				ctx.fillStyle = "yellow";
+				ctx.fillStyle = "purple";
 				ctx.fillRect(
 					mid + nextDiff * canvas.width,
 					0,
@@ -132,7 +132,7 @@ export const LatencyTestDialog = memo(() => {
 					canvas.height,
 				);
 				const curDiff = (nextBeatTime.current - currentTime) / dur;
-				ctx.fillStyle = "yellow";
+				ctx.fillStyle = "purple";
 				ctx.fillRect(
 					mid + curDiff * canvas.width,
 					0,
@@ -245,10 +245,10 @@ export const LatencyTestDialog = memo(() => {
 								hitOffset === null
 									? "gray"
 									: hitOffset.cur > 0
-										? "blue"
+										? "purple"
 										: hitOffset.cur < 0
 											? "red"
-											: "green"
+											: "purple"
 							}
 						>
 							{hitOffset === null

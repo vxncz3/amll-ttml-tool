@@ -237,7 +237,7 @@ export const SplitWordDialog = memo(() => {
 			<Dialog.Content>
 				<Dialog.Title>{t("splitWordDialog.title", "拆分单词")}</Dialog.Title>
 				<Flex direction="column" gap="2">
-					<Callout.Root color="blue">
+					<Callout.Root color="purple">
 						<Callout.Icon>
 							<Info16Regular />
 						</Callout.Icon>

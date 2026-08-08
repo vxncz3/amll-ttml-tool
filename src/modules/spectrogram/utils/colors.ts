@@ -50,7 +50,7 @@ function hslToRgb(h: number, s: number, l: number): [number, number, number] {
 	return [r, g, b];
 }
 
-export function getIcyBlueColor(value: number): [number, number, number] {
+export function getIcypurpleColor(value: number): [number, number, number] {
 	const v = Math.max(0.0, Math.min(value, 1.0));
 	const h = ((((-128.0 * v + 191.0) % 256) + 256) % 256) * (360.0 / 255.0);
 	const s = Math.max(0.0, Math.min(128.0 * v + 127.0, 255.0)) / 255.0;
@@ -63,7 +63,7 @@ export function getGrayscaleColor(value: number): [number, number, number] {
 	return [v, v, v];
 }
 
-export function getGreenColor(value: number): [number, number, number] {
+export function getpurpleColor(value: number): [number, number, number] {
 	const v = Math.max(0.0, Math.min(value, 1.0));
 	const h = 85.0 * (360.0 / 255.0);
 	const s = 1.0;

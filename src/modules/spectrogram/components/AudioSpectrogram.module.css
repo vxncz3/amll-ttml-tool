@@ -209,7 +209,7 @@
 	top: 0;
 	width: 2px;
 	height: 100%;
-	background-color: var(--blue-a9);
+	background-color: var(--purple-a9);
 	z-index: 9;
 	pointer-events: none;
 }

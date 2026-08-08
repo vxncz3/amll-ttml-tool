@@ -251,7 +251,7 @@ export const BpmPanel: FC = () => {
 
 				{!hasSeenTapWindowTip && (isKeyTapMode || isSpectrogramTapMode) && (
 					<Callout.Root
-						color="blue"
+						color="purple"
 						size="1"
 						variant="soft"
 						style={{

@@ -347,8 +347,8 @@ export const AudioSpectrogram: FC = () => {
 	if (isSpectrogramTapMode) {
 		const nextBeatIndex = totalTapCount + 1;
 		hoverTimeFormatted = `${t("spectrogram.clickToCalibrateBeatN", "点击校准第 {{n}} 拍", { n: nextBeatIndex })}: ${hoverTimeFormatted}`;
-		tooltipBgColor = "var(--green-9)";
-		hoverLineColor = "var(--green-9)";
+		tooltipBgColor = "var(--purple-9)";
+		hoverLineColor = "var(--purple-9)";
 	} else if (isInvalidEndTime) {
 		hoverTimeFormatted = t("spectrogram.invalidEndTime", "不能选择此结束时间");
 		tooltipBgColor = "var(--red-9)";

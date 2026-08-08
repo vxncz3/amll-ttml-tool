@@ -137,7 +137,7 @@
 }
 
 .startTime {
-	background-color: var(--green-a4);
+	background-color: var(--purple-a4);
 }
 
 .endTime {
@@ -329,10 +329,10 @@
 }
 
 .lyricWord.sync.active {
-	background-color: var(--blue-a5);
+	background-color: var(--purple-a5);
 
 	&.selected {
-		background-color: var(--blue-a7);
+		background-color: var(--purple-a7);
 	}
 }
 

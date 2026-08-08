@@ -278,7 +278,7 @@ export const ImportFromLRCLIB = () => {
 														</Flex>
 
 														{track.syncedLyrics ? (
-															<Badge color="green" size="1">
+															<Badge color="purple" size="1">
 																<CheckmarkCircle24Regular
 																	className={styles.badgeIcon}
 																/>

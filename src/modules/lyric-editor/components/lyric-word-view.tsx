@@ -490,7 +490,7 @@ const LyricWordViewEditAdvance = ({
 				>
 					<WordEditField
 						size="1"
-						color="green"
+						color="purple"
 						wordAtom={wordAtom}
 						fieldName="startTime"
 						formatter={msToTimestamp}
@@ -804,10 +804,10 @@ const LyricSyncWordView: FC<{
 		const animation = startTimeRef.current?.animate(
 			[
 				{
-					backgroundColor: "var(--green-a8)",
+					backgroundColor: "var(--purple-a8)",
 				},
 				{
-					backgroundColor: "var(--green-a4)",
+					backgroundColor: "var(--purple-a4)",
 				},
 			],
 			{

@@ -281,7 +281,7 @@ ${comment}
 									)}
 								</Callout.Text>
 							</Callout.Root>
-							<Callout.Root color="blue">
+							<Callout.Root color="purple">
 								<Callout.Icon>
 									<Info16Regular />
 								</Callout.Icon>

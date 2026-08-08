@@ -5,8 +5,8 @@ import {
 	generateLutFromStops,
 	generatePalette,
 	getGrayscaleColor,
-	getGreenColor,
-	getIcyBlueColor,
+	getpurpleColor,
+	getIcypurpleColor,
 } from "$/modules/spectrogram/utils/colors";
 
 export const spectrogramGainAtom = atomWithStorage(
@@ -28,10 +28,10 @@ export const showBeatLinesAtom = atomWithStorage(
 	false,
 );
 
-const icyBluePalette = {
-	id: "icy_blue",
-	name: "Icy Blue",
-	data: generatePalette(getIcyBlueColor),
+const icypurplePalette = {
+	id: "icy_purple",
+	name: "Icy purple",
+	data: generatePalette(getIcypurpleColor),
 };
 
 const grayscalePalette = {
@@ -40,21 +40,21 @@ const grayscalePalette = {
 	data: generatePalette(getGrayscaleColor),
 };
 
-const aegisubGreenPalette = {
-	id: "aegisub_green",
-	name: "Green",
-	data: generatePalette(getGreenColor),
+const aegisubpurplePalette = {
+	id: "aegisub_purple",
+	name: "purple",
+	data: generatePalette(getpurpleColor),
 };
 
 export const predefinedPalettes = [
-	icyBluePalette,
-	aegisubGreenPalette,
+	icypurplePalette,
+	aegisubpurplePalette,
 	grayscalePalette,
 ];
 
 export const selectedPaletteIdAtom = atomWithStorage<string>(
 	"settings_selectedPaletteId",
-	"icy_blue",
+	"icy_purple",
 );
 
 export const customPaletteStopsAtom = atomWithStorage<ColorStop[]>(
@@ -86,7 +86,7 @@ export const currentPaletteAtom = atom((get) => {
 		return predefined;
 	}
 
-	return icyBluePalette;
+	return icypurplePalette;
 });
 
 export const spectrogramHoverPxAtom = atom(0);
